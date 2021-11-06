@@ -2,6 +2,6 @@
 title: "Holy cow!"
 ---
 
-### I have a webpage!
+### Resume
 
-And I can put all kinds of stuff on it!
+[Here](resume.html) is a link to my resume!

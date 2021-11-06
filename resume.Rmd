@@ -1,0 +1,23 @@
+---
+title: "Resume"
+---
+
+### Education
+
+__Biostatistics, Master of Science__ [__New York, NY__]{style="float:right"}\
+_Columbia University_ [_2021 – Present_]{style="float:right"}
+
+__Economics, Master of Arts__ [__Rochester, NY__]{style="float:right"}\
+University of Rochester [_2018 – 2019_]{style="float:right"}
+
+__Economics, Bachelor of Arts__ [__Providence, RI__]{style="float:right"}\
+_Brown University_ [_2010 – 2014_]{style="float:right"}
+
+__Mathematics, Bachelor of Science__ [__Providence, RI__]{style="float:right"}\
+_Brown University_ [_2010 – 2014_]{style="float:right"}
+
+### Publications
+
+Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "Stress Testing Household Debt," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
+
+[Test](documents/JamesKelliherWorkingPaperOnCovidDynamicsInNYC.pdf)
