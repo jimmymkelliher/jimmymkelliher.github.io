@@ -1,7 +1,15 @@
 ---
-title: "Holy cow!"
+title: "Hello, World!"
 ---
 
+***
 ### Resume
+***
 
 [Here](resume.html) is a link to my resume!
+
+***
+### Instacard Dashboard
+***
+
+[Here](dashboard.html) is a link to my Instacart dashboard!

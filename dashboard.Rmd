@@ -1,0 +1,75 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source_code: embed
+---
+
+```{r setup, include=TRUE}
+library(p8105.datasets)
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+
+data("instacart")
+
+#instacart <-
+#  instacart %>%
+#  sample_n(10000)
+
+#head(instacart) %>% knitr::kable()
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Top Ten Aisles by Purchase Volume
+
+```{r}
+# rank aisles according to number of items ordered from each aisle
+instacart %>%
+  # group by aisle
+  group_by(aisle) %>%
+  # count the items in each aisle
+  summarize(n_items_ordered = n()) %>%
+  # order the aisles from most popular to least popular
+  arrange(-n_items_ordered) %>%
+  # retain top ten aisles by purchase volume
+  filter(row_number() %in% 1:10) %>%
+  # adjust case of variables for readability
+  mutate(aisle = str_to_title(aisle)) %>%
+  # translate ordering to factor variable
+  mutate(aisle = reorder(factor(aisle), -n_items_ordered)) %>%
+  # output as plotly bar chart
+  plot_ly(
+      x = ~aisle
+    , y = ~n_items_ordered
+    , color = ~aisle
+    , type = "bar"
+    , colors = "viridis"
+  ) %>%
+  # add meta-data
+  layout(
+      title  = ""
+    , xaxis  = list(title = "Aisle")
+    , yaxis  = list(title = "Frequency")
+    , legend = list(title=list(text =  "<b> Aisle </b>"))
+  )
+```
