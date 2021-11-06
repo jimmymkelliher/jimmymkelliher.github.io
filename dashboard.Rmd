@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Instacart Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -25,10 +25,36 @@ data("instacart")
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Frequency of Orders against Hour of Day, by Day of Week
 
 ```{r}
+#
+myDays <- c(
+    "Sunday", "Monday", "Tuesday", "Wednesday"
+  , "Thursday", "Friday", "Saturday"
+)
 
+instacart %>%
+  group_by(
+      order_dow
+    , order_hour_of_day
+  ) %>%
+  summarize(count = n()) %>%
+  mutate(order_dow_fct = factor(myDays[order_dow + 1], levels = myDays)) %>%
+  plot_ly(
+    x = ~order_hour_of_day
+    , y = ~count
+    , type = "scatter"
+    , mode = "lines+markers"
+    , color = ~order_dow_fct
+  ) %>%
+  # add meta-data
+  layout(
+      title  = ""
+    , xaxis  = list(title = "Hour of Day", showticklabels = FALSE)
+    , yaxis  = list(title = "Frequency")
+    , legend = list(title=list(text =  "<b> Day of Week </b>"))
+  )
 ```
 
 Column {data-width=350}
@@ -68,7 +94,7 @@ instacart %>%
   # add meta-data
   layout(
       title  = ""
-    , xaxis  = list(title = "Aisle")
+    , xaxis  = list(title = "Aisle", showticklabels = FALSE)
     , yaxis  = list(title = "Frequency")
     , legend = list(title=list(text =  "<b> Aisle </b>"))
   )
