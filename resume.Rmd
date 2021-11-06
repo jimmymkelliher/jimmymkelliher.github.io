@@ -18,6 +18,4 @@ _Brown University_ [_2010 – 2014_]{style="float:right"}
 
 ### Publications
 
-Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "Stress Testing Household Debt," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
-
-[Test](documents/JamesKelliherWorkingPaperOnCovidDynamicsInNYC.pdf)
+Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "[Stress Testing Household Debt](documents/JamesKelliherWorkingPaperOnCovidDynamicsInNYC.pdf)," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
