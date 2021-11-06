@@ -1,8 +1,10 @@
 ---
-title: "Resume"
+title: "Résumé for Jimmy M. Kelliher"
 ---
 
+***
 ### Education
+***
 
 __Biostatistics, Master of Science__ [__New York, NY__]{style="float:right"}\
 _Columbia University_ [_2021 – Present_]{style="float:right"}
@@ -16,6 +18,138 @@ _Brown University_ [_2010 – 2014_]{style="float:right"}
 __Mathematics, Bachelor of Science__ [__Providence, RI__]{style="float:right"}\
 _Brown University_ [_2010 – 2014_]{style="float:right"}
 
+***
 ### Publications
+***
 
-Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "[Stress Testing Household Debt](documents/JamesKelliherWorkingPaperOnCovidDynamicsInNYC.pdf)," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
+Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "[Stress Testing Household Debt](documents/JamesKelliherPublishedPaperOnStressTestingHouseholdDebt.pdf)," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
+
+Kelliher, Jimmy. "[Modeling the Progression of SARS-CoV-2 in New York City](documents/JamesKelliherResearchStatement.pdf)," Working Paper.
+
+
+
+
+***
+### Professional Experience
+***
+
+__Senior Analyst__ [__New York, NY__]{style="float:right"}\
+_New York City Mayor’s Office of Management and Budget_ [_2019 – 2021_]{style="float:right"}\
+
+*	Modeled the dynamics of COVID-19 in New York City using theory from epidemiology and machine learning optimization procedures
+*	Quantified the volume of antigen tests needed to mitigate the spread of COVID-19 in the city
+*	Assessed the impact of policy interventions, such as mask mandates, on virus transmission
+*	Evaluated initiatives aimed at supporting people experiencing homelessness with econometric techniques such as difference-in-difference estimation, the synthetic control method, and Bayesian structural time-series modeling
+*	Generated high-level weekly reports for the budget director related to COVID-19 dynamics and the placement of homeless shelter occupants into stable housing
+
+__Senior Research Assistant__ [__Washington, DC__]{style="float:right"}\
+_Federal Reserve Board of Governors_ [_2015 – 2018_]{style="float:right"}\
+
+* Supported economists of the Real Estate Finance section within the Division of Research and Statistics
+* Implemented sophisticated programming techniques to manage large datasets
+* Prepared briefings for the governors and Chairperson Yellen in advance of FOMC meetings
+* Processed, cleaned, and analyzed data for the annual Home Mortgage Disclosure Act (HMDA) bulletin articles of 2015,  2016,  and 2017 
+* Designed models for household stress testing using Equifax’s Consumer Credit Panel (CCP)
+* Investigated the impact of the Community Reinvestment Act (CRA) on the incidence of risky borrowing
+
+__Portfolio Risk Analyst__ [__East Providence, RI__]{style="float:right"}\
+_Santander Bank, N.A._ [_2015_]{style="float:right"}\
+
+*	Maintained the Small Business Banking segment of Santander's retail credit risk portfolio
+*	Implemented statistical techniques to forecast consumer behavior and mitigate losses
+*	Managed databases and executed queries in SQL to improve team members’ workflows
+*	Actively monitored scoring models to revise underwriting guidelines and policy
+
+__Tax Specialist__ [__West Springfield, MA__]{style="float:right"}\
+_CheckWriters Payroll_ [_2014 – 2015_]{style="float:right"}\
+
+*	Filed quarterly and annual tax returns for clients nationally
+*	Converted new clients onto the CheckWriters Payroll system
+*	Communicated with clients to ensure all needs were met
+
+__Teaching Assistant__ [__Providence, RI__]{style="float:right"}\
+_Brown University, Department of Mathematics_ [_2011 – 2014_]{style="float:right"}\
+
+* Instructed a weekly, hour-long recitation for three semesters of multivariable calculus
+* Conducted weekly office hours to provide students with assistance in a one-on-one environment
+* Led review sessions before exams to provide students with every opportunity to succeed
+
+__Tutor for Mathematics__ [__Providence, RI__]{style="float:right"}\
+_Brown University, Sheridan Center_ [_2014_]{style="float:right"}\
+
+* Tutored groups and individual undergraduates in introductory calculus and multivariable calculus
+*	Led weekly discussions with students to review homework assignments and recitation problems
+*	Designed personalized lesson plans to suit individual student needs and streamline group sessions
+
+***
+### Selected Coursework
+***
+
+__Economics, Master of Arts__	[__Concentration GPA: N/A__]{style="float:right"}\
+_University of Rochester_ [_2018 – 2019_]{style="float:right"}\
+
+*	Mathematical Statistics and Econometrics
+*	Mathematical Economics
+*	Research in Applied Econometrics
+*	Modern Value Theory 
+
+__Mathematics, Bachelor of Science__ [__Concentration GPA: 3.7/4.0__]{style="float:right"}\
+_Brown University_ [_2010 – 2014_]{style="float:right"}\	
+
+*	Measure-theoretic Probability
+*	Real Analysis in Several Variables
+*	Real Analysis with Smooth Manifolds
+*	Honors Linear Algebra
+*	Abstract Algebra
+*	Lie Algebra
+
+__Economics, Bachelor of Arts__	[__Concentration GPA 3.8/4.0__]{style="float:right"}\
+_Brown University_ [_2010 – 2014_]{style="float:right"}\
+
+*	Advanced Econometrics
+*	Applied Research Methods
+*	Intermediate Microeconomics
+*	Theory of Economic Growth
+*	Theory of General Equilibrium
+
+__Non-degree Coursework in Statistics__ [__Concentration GPA: 4.0/4.0__]{style="float:right"}\
+_George Washington University_ [_2015 – 2016_]{style="float:right"}\
+
+*	Mathematical Statistics
+*	Applied Multivariate Analysis 
+*	Stochastic Calculus in Finance
+
+***
+### Technical Skills
+***
+
+__Operating Systems__\
+Unix* | Mac OS | Windows
+
+__Programming and Scripting__\
+R* | Julia | MATLAB | Perl | Python
+
+__Data Manipulation and Processing__\
+Stata* | Excel | Fame | R | RATS | SAS | SQL
+
+__Output and Visualization__\
+LaTeX* | R* | Word | Python
+
+\* Denotes preferred language for given skill.
+
+***
+### Extracurricular Activities
+***
+
+__Speaker Coordinator for Data Science Huddle__	[__New York, NY__]{style="float:right"}\
+_New York City Mayor’s Office of Management and Budget_ [_2019 – 2021_]{style="float:right"}\
+
+*	Led efforts for our agency’s Data Science Huddle, a group committed to equipping the employees of the Office of Management and Budget with a working knowledge of and passion for data science and visualization
+*	Invited internal and external speakers to share how they apply data science to better support New York City
+*	Offered presentations on the theory and implementation of regression analysis and numerical integration in Python
+
+__Philanthropy Chair__ [__Washington, DC__]{style="float:right"}\
+_Stonewall Kickball Team_ [_2017 – 2018_]{style="float:right"}\
+
+*	Organized charity events for adult kickball team within Stonewall Kickball, an LGBTQ-and-ally, community-based, non-profit sports league that strives to raise funds for local non-profit organizations
+*	Supported Casa Ruby, an LGBTQ bilingual and multicultural organization supporting queer youth in the DC area, with proceeds from charity events
