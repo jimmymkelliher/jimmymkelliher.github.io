@@ -116,7 +116,7 @@ _Brown University_ [_2010 – 2014_]{style="float:right"}\
 *	Theory of Economic Growth
 *	Theory of General Equilibrium
 
-__Non-degree Coursework in Statistics__ [__Concentration GPA: 4.0/4.0__]{style="float:right"}\
+__Statistics, Non-degree Coursework__ [__Concentration GPA: 4.0/4.0__]{style="float:right"}\
 _George Washington University_ [_2015 – 2016_]{style="float:right"}\
 
 *	Mathematical Statistics
