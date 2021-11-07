@@ -59,7 +59,7 @@ instacart %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Distribution of Hour of Purchase among Top Ten Specialty Wines
+### Distribution of Hour of Purchase among Top Five Specialty Wines
 
 ```{r}
 # rank wines by purchase volume
@@ -74,8 +74,8 @@ myProducts <-
   summarize(n_items_ordered = n()) %>%
   # order the wines from most popular to least popular
   arrange(-n_items_ordered) %>%
-  # retain top ten aisles by purchase volume
-  filter(row_number() %in% 1:10) %>%
+  # retain top five aisles by purchase volume
+  filter(row_number() %in% 1:5) %>%
   # identify top ten wines
   pull(product_name)
 
