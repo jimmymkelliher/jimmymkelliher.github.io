@@ -21,7 +21,7 @@ data("instacart")
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Frequency of Orders against Hour of Day, by Day of Week
+### Number of Distinct Orders against Hour of Day, by Day of Week
 
 ```{r}
 # create a vector of days of the week
@@ -32,6 +32,10 @@ myDays <- c(
 
 # create line chart of order volume over course of day for each day of week
 instacart %>%
+  # retain variables unique at the order_id level
+  select(order_id, order_dow, order_hour_of_day) %>%
+  # remove duplicate order IDs
+  distinct() %>%
   # group by order_dow and order_hour_of_day
   group_by(order_dow, order_hour_of_day) %>%
   # count order for each hour and for each day of the week

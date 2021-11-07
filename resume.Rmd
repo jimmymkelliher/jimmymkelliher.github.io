@@ -1,5 +1,5 @@
 ---
-title: "Résumé for Jimmy M. Kelliher"
+title: "Jimmy M. Kelliher"
 output: 
   html_document:
     toc: true
