@@ -96,7 +96,7 @@ instacart %>%
   # add meta-data
   layout(
       title  = ""
-    , xaxis  = list(title = "Wine", showticklabels = FALSE)
+    , xaxis  = list(title = "", showticklabels = FALSE)
     , yaxis  = list(title = "Hour of Day")
     , legend = list(title=list(text =  "<b> Specialty Wine </b>"))
   )
@@ -130,7 +130,7 @@ instacart %>%
   # add meta-data
   layout(
       title  = ""
-    , xaxis  = list(title = "Aisle", showticklabels = FALSE)
+    , xaxis  = list(title = "", showticklabels = FALSE)
     , yaxis  = list(title = "Frequency")
     , legend = list(title=list(text =  "<b> Aisle </b>"))
   )
