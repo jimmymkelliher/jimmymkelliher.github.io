@@ -1,9 +1,13 @@
 ---
 title: "Résumé for Jimmy M. Kelliher"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ***
-### Education
+## Education
 ***
 
 __Biostatistics, Master of Science__ [__New York, NY__]{style="float:right"}\
@@ -19,18 +23,18 @@ __Mathematics, Bachelor of Science__ [__Providence, RI__]{style="float:right"}\
 _Brown University_ [_2010 – 2014_]{style="float:right"}
 
 ***
-### Publications
+## Publications
 ***
 
-Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "[Stress Testing Household Debt](documents/JamesKelliherPublishedPaperOnStressTestingHouseholdDebt.pdf)," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
+1) Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. "[Stress Testing Household Debt](documents/JamesKelliherPublishedPaperOnStressTestingHouseholdDebt.pdf)," _The Journal of Credit Risk_, vol. 16, no. 3, September 2020, pp. 1-34.
 
-Kelliher, Jimmy. "[Modeling the Progression of SARS-CoV-2 in New York City](documents/JamesKelliherResearchStatement.pdf)," Working Paper.
+2) Kelliher, Jimmy. "[Modeling the Progression of SARS-CoV-2 in New York City](documents/JamesKelliherResearchStatement.pdf)," Working Paper.
 
 
 
 
 ***
-### Professional Experience
+## Professional Experience
 ***
 
 __Senior Analyst__ [__New York, NY__]{style="float:right"}\
@@ -82,7 +86,7 @@ _Brown University, Sheridan Center_ [_2014_]{style="float:right"}\
 *	Designed personalized lesson plans to suit individual student needs and streamline group sessions
 
 ***
-### Selected Coursework
+## Selected Coursework
 ***
 
 __Economics, Master of Arts__	[__Concentration GPA: N/A__]{style="float:right"}\
@@ -120,7 +124,7 @@ _George Washington University_ [_2015 – 2016_]{style="float:right"}\
 *	Stochastic Calculus in Finance
 
 ***
-### Technical Skills
+## Technical Skills
 ***
 
 __Operating Systems__\
@@ -138,7 +142,7 @@ LaTeX* | R* | Word | Python
 \* Denotes preferred language for given skill.
 
 ***
-### Extracurricular Activities
+## Extracurricular Activities
 ***
 
 __Speaker Coordinator for Data Science Huddle__	[__New York, NY__]{style="float:right"}\
